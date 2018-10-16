@@ -38,11 +38,13 @@
     "waait": "^1.0.2"
   },
   "devDependencies": {
+    "@hint/configuration-development": "^1.1.1",
     "babel-jest": "^23.6.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "casual": "^1.5.19",
     "enzyme-to-json": "^3.3.4",
     "graphql-tools": "^4.0.0",
+    "hint": "^3.4.10",
     "jest": "^23.6.0",
     "jest-transform-graphql": "^2.1.0"
   },
