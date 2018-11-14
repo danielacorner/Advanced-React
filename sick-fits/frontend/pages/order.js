@@ -1,13 +1,13 @@
-import CreateItem from '../components/CreateItem';
 import PleaseSignIn from '../components/PleaseSignIn';
-const Sell = () => {
+import Order from '../components/Order';
+const OrderPage = props => {
   return (
     <div>
       <PleaseSignIn>
-        <CreateItem />
+        <Order id={props.query.id} />
       </PleaseSignIn>
     </div>
   );
 };
 
-export default Sell;
+export default OrderPage;
