@@ -40,8 +40,7 @@ class Order extends Component {
         {(data, error, loading) => {
           if (error) return <Error error={error} />;
           if (loading) return <p>Loading...</p>;
-          const order = data.data.order;
-          console.log(data);
+          const order = data.data.order; //! bug? data.data
           return (
             <OrderStyles>
               <Head>
